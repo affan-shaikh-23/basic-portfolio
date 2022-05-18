@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Rock+Salt&family=Sora:wght@300;400;700&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Sora", sans-serif;
+}
+p {
+  font-family: "Inter", sans-serif;
+}
+
+.fullscreen
+{
+    width: 100vw;
+    height: 100vh;
+}
+.margin-top{
+  margin-top:150px ;
+}
+
+.inter{
+  font-family: 'Rock Salt', cursive;
+}
+.img-sz{
+  height: 100px;
+
+}
+.mar{
+  margin-top: 10px;
+}
+
+.padding{
+  padding-top: 200px;
+}
+
+span{
+  font-family: 'Sora', sans-serif;
+}
+
+.pad-l{
+  padding-left: 4rem;
+}
+
+.pad-r
+{
+  padding-right: 4rem;
+}
+
+.mar-t{
+  margin-top: 50px;
+}
+
+.line {
+  background-color: #dc3545;
+  width: 30px;
+  height: 5px;
+}
+.padding-top{
+  margin-top: 100px;
+}
+
+.margin-top{
+  margin-top: 90px;
+}
