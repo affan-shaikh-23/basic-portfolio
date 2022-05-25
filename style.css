@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Rock+Salt&family=Sora:wght@300;400;700&display=swap');
 * {
-  padding: 0;
+  padding:0;
   margin: 0;
   box-sizing: border-box;
 }
@@ -69,4 +69,42 @@ span{
 
 .margin-top{
   margin-top: 90px;
+}
+
+.hieght{
+  margin-top: 150px;
+}
+
+.inner{
+  padding: 250px;
+}
+/* .mar-in{
+  margin-left: 250px;
+  margin-right: 250px;
+} */
+
+.mar-l{
+  margin-left: 260px;
+}
+
+.pad-in{
+  padding-bottom: 40px;
+}
+
+.mar-p
+{
+  margin-left: 450px;
+  margin-top: 20px;
+}
+
+.pad-m{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.text-center{
+  margin-left: 30px !important;
+}
+
+.lst-mar{
+  margin-top: 300px;
 }
