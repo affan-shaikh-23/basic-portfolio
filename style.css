@@ -108,3 +108,18 @@ span{
 .lst-mar{
   margin-top: 300px;
 }
+
+.left
+{
+  margin-left: 250px;
+}
+.btn
+{
+  box-shadow: inset 0 0 0.8em rgba(255, 255, 255, 0.3), 0 0 0.8em rgba(255, 255, 255, 0.3);
+  border: #fff solid 2px;
+  background-color: #fff ;
+}
+.btn:hover{
+  background-color: #fb5454;
+  box-shadow: inset 0 0 0 rgba(251, 81, 81, 0.4), 0 0 1.5em rgba(251, 81, 81, 0.6);
+}

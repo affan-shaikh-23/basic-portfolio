@@ -293,15 +293,17 @@
           </button>
           </div>
           <div class="col-xs-12 py-5 text-center">
-            <i class="fa-solid fa-basketball fs-2 text-danger"></i>
-            <i class="fa-brands fa-instagram fs-2 text-danger pad-m"></i>
-            <i class="fa-brands fa-mailchimp fs-2 text-danger"></i>
+            <i class="fa-solid fa-basketball fs-3 text-danger"></i>
+            <i class="fa-brands fa-instagram fs-3 text-danger pad-m"></i>
+            <i class="fa-brands fa-mailchimp fs-3 text-danger"></i>
           </div>
         </div>
       </section>
     </main>
     <footer>
-      <i class="fa-solid fa-copyright text-center"><h3 class="text-danger">Created by Affan shaikh</h3></i>
+      <div class="col-xs-12 hieght ">
+        <h3 class="text-center text-danger fs-5">Created by Affan shaikh</h3>
+      </div>
     </footer>
 
     <!-- -->
@@ -316,5 +318,16 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+    <script src="script.js"></script>
+    <script src="vanilla-tilt.js"></script>
+<script type="text/javascript" src="vanilla-tilt.js"></script>
+<script>
+  VanillaTilt.init(document.querySelectorAll(".col-xs-12 col-md-6 col-lg-4"),{
+		max: 25,
+		speed: 400,
+    glare : true,
+    "max-glare": 1,
+	});
+</script>
   </body>
 </html>
