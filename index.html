@@ -199,7 +199,7 @@
       </section>
       <!-- section five end -->
       <section class="container hieght">
-        <div class="row gx-5 ">
+        <div class="row gx-5">
           <div class="col-md-12 col-lg-6 gx-5">
             <div class="line mb-5"></div>
             <h5 class="fs-6 text-danger">START AT</h5>
@@ -270,27 +270,25 @@
       </section>
       <section class="container padding-top">
         <div class="row my-5">
-          <div class="col-xs-12  hieght">
+          <div class="col-xs-12 hieght">
             <h1 class="display-1 fw-bold text-center">Sign up</h1>
             <p class="fs-5 text-center text-secondary">
               Amet purus gravida quis blandit turpis. Montes nascetur ridiculus
-              mus mauris vitae ultricies leo. 
+              mus mauris vitae ultricies leo.
             </p>
             <p class="fs-5 text-center text-secondary">
-              Odio ut sem nulla pharetra diam
-              sit amet.
+              Odio ut sem nulla pharetra diam sit amet.
             </p>
           </div>
-          <div class="col-xs-12">
+          <div class="col-12 d-flex justify-content-center">
             <input
-            type="email"
-            class="form-control w-50 mar-l rounded-pill pad-in"
-            id="exampleFormControlInput1"
-            placeholder="email"
-          />
-          <button type="button" class="btn btn-danger fw-bold mar-p">
-            JOIN
-          </button>
+              type="email"
+              class="form-control W-100 rounded-pill pad-in"
+              id="exampleFormControlInput1"
+              placeholder="email"
+            />
+
+            <button type="button" class="btn btn-danger fw-bold">JOIN</button>
           </div>
           <div class="col-xs-12 py-5 text-center">
             <i class="fa-solid fa-basketball fs-3 text-danger"></i>
@@ -301,7 +299,7 @@
       </section>
     </main>
     <footer>
-      <div class="col-xs-12 hieght ">
+      <div class="col-xs-12 hieght">
         <h3 class="text-center text-danger fs-5">Created by Affan shaikh</h3>
       </div>
     </footer>
@@ -320,14 +318,17 @@
     ></script>
     <script src="script.js"></script>
     <script src="vanilla-tilt.js"></script>
-<script type="text/javascript" src="vanilla-tilt.js"></script>
-<script>
-  VanillaTilt.init(document.querySelectorAll(".col-xs-12 col-md-6 col-lg-4"),{
-		max: 25,
-		speed: 400,
-    glare : true,
-    "max-glare": 1,
-	});
-</script>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script>
+      VanillaTilt.init(
+        document.querySelectorAll(".col-xs-12 col-md-6 col-lg-4"),
+        {
+          max: 25,
+          speed: 400,
+          glare: true,
+          "max-glare": 1,
+        }
+      );
+    </script>
   </body>
 </html>
