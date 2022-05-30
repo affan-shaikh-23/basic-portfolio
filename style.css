@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Rock+Salt&family=Sora:wght@300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Rock+Salt&family=Sora:wght@300;400;700&display=swap");
 * {
-  padding:0;
+  padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
@@ -17,44 +17,41 @@ p {
   font-family: "Inter", sans-serif;
 }
 
-.fullscreen
-{
-    width: 100vw;
-    height: 100vh;
+.fullscreen {
+  width: 100vw;
+  height: 100vh;
 }
-.margin-top{
-  margin-top:150px ;
+.margin-top {
+  margin-top: 150px;
 }
 
-.inter{
-  font-family: 'Rock Salt', cursive;
+.inter {
+  font-family: "Rock Salt", cursive;
 }
-.img-sz{
+.img-sz {
   height: 100px;
-
 }
-.mar{
+.mar {
   margin-top: 10px;
 }
 
-.padding{
+.padding {
   padding-top: 200px;
 }
 
-span{
-  font-family: 'Sora', sans-serif;
+span {
+  font-family: "Sora", sans-serif;
 }
 
-.pad-l{
+.pad-l {
   padding-left: 4rem;
 }
 
-.pad-r
-{
+.pad-r {
   padding-right: 4rem;
 }
 
-.mar-t{
+.mar-t {
   margin-top: 50px;
 }
 
@@ -63,19 +60,19 @@ span{
   width: 30px;
   height: 5px;
 }
-.padding-top{
+.padding-top {
   margin-top: 100px;
 }
 
-.margin-top{
+.margin-top {
   margin-top: 90px;
 }
 
-.hieght{
+.hieght {
   margin-top: 150px;
 }
 
-.inner{
+.inner {
   padding: 250px;
 }
 /* .mar-in{
@@ -83,42 +80,49 @@ span{
   margin-right: 250px;
 } */
 
-.mar-l{
+.mar-l {
   margin-left: 260px;
 }
 
-.pad-in{
+.pad-in {
   padding-bottom: 40px;
 }
 
-.mar-p
-{
+.mar-p {
   margin-top: 20px;
 }
 
-.pad-m{
+.pad-m {
   padding-left: 30px;
   padding-right: 30px;
 }
-.text-center{
+.text-center {
   margin-left: 30px !important;
 }
 
-.lst-mar{
+.lst-mar {
   margin-top: 300px;
 }
 
-.left
-{
+.left {
   margin-left: 250px;
 }
-.btn
-{
-  box-shadow: inset 0 0 0.8em rgba(255, 255, 255, 0.3), 0 0 0.8em rgba(255, 255, 255, 0.3);
+.btn {
+  box-shadow: inset 0 0 0.8em rgba(255, 255, 255, 0.3),
+    0 0 0.8em rgba(255, 255, 255, 0.3);
   border: #fff solid 2px;
-  background-color: #fff ;
+  background-color: #fff;
 }
-.btn:hover{
+.btn:hover {
   background-color: #5e1a1a;
-  box-shadow: inset 0 0 0 rgba(251, 81, 81, 0.4), 0 0 1.5em rgba(251, 81, 81, 0.6);
+  box-shadow: inset 0 0 0 rgba(251, 81, 81, 0.4),
+    0 0 1.5em rgba(251, 81, 81, 0.6);
 }
+
+@media screen and (max-width: 700px) {
+  .text-center-sm {
+    text-align: center;
+  }
+}
+
+

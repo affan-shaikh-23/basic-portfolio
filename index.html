@@ -21,14 +21,18 @@
             <img src="./assets/logo.svg" alt="logo" height="40" width="40" />
           </a>
           <form class="d-flex">
-            <button class="btn btn-outline-danger" type="submit">Search</button>
+            <button class="btn btn-outline-danger" type="submit">
+              <a href="#contact">Contact me</a>
+            </button>
           </form>
         </div>
       </nav>
     </header>
     <main>
       <!-- section one start-->
-      <section class="d-flex justify-content-center align-items-center height">
+      <section
+        class="d-flex justify-content-center align-items-center height xs-12"
+      >
         <div class="text-center">
           <h4 class="fs-6 text-uppercase text-danger">Affan shaikh</h4>
           <h1 class="display-3 py-4 fw-bold">Web developer</h1>
@@ -60,14 +64,14 @@
                 </h4>
               </div>
             </div>
-            <div class="col">
-              <div class="p-3 bg-transparent col-xs-12 col-md-12">
+            <div class="col-xs-12">
+              <div class="p-3 bg-transparent col-12xs- col-md-12">
                 <img
                   src="./assets/Saly-13.png"
                   alt="affan"
                   height="500"
                   width="500"
-                  class="mb-5"
+                  class="mb-5 img-fluid"
                 />
               </div>
             </div>
@@ -79,7 +83,7 @@
       <section class="container">
         <div class="row gx-5">
           <!-- col 1  -->
-          <div class="col-xs-12 col-md-6 col-lg-4">
+          <div class="col-xs-12 col-md-6 col-lg-4 text-center-sm">
             <i
               class="fa-solid fa-fire-flame-curved display-5 text-danger mb-4"
             ></i>
@@ -90,7 +94,7 @@
           </div>
           <!-- col 1 end -->
           <!-- col 2 -->
-          <div class="col-xs-12 col-md-6 col-lg-4">
+          <div class="col-xs-12 col-md-6 col-lg-4 text-center-sm">
             <i
               class="fa-brands fa-buromobelexperte display-5 text-danger mb-4"
             ></i>
@@ -101,7 +105,7 @@
           </div>
           <!-- col 2 end -->
           <!-- col 3 -->
-          <div class="col-xs-12 col-md-6 col-lg-4">
+          <div class="col-xs-12 col-md-6 col-lg-4 text-center-sm">
             <i
               class="fa-solid fa-camera-viewfinder display-5 text-danger mb-4"
             ></i>
@@ -118,7 +122,7 @@
       <section class="container mar-t">
         <div class="row gx-5">
           <!-- col 1  -->
-          <div class="col-xs-12 col-md-6 col-lg-4">
+          <div class="col-xs-12 col-md-6 col-lg-4 text-center-sm">
             <i class="fa-solid fa-gear display-5 text-danger mb-4"></i>
             <h3 class="py-3 mb-1">Easily customisable</h3>
             <p class="text-secondary fs-5">
@@ -127,7 +131,7 @@
           </div>
           <!-- col 1 end -->
           <!-- col 2 -->
-          <div class="col-xs-12 col-md-6 col-lg-4">
+          <div class="col-xs-12 col-md-6 col-lg-4 text-center-sm">
             <i
               class="fa-solid fa-heart-circle-bolt display-5 text-danger mb-4"
             ></i>
@@ -138,7 +142,7 @@
           </div>
           <!-- col 2 end -->
           <!-- col 3 -->
-          <div class="col-xs-12 col-md-6 col-lg-4">
+          <div class="col-xs-12 col-md-6 col-lg-4 text-center-sm">
             <i
               class="fa-solid fa-fire-flame-simple display-5 text-danger mb-4"
             ></i>
@@ -166,7 +170,7 @@
         </div>
         <div class="row gx-5 mt-5">
           <!-- col 1  -->
-          <div class="col-xs-12 col-md-6 col-lg-4">
+          <div class="col-xs-12 col-md-6 col-lg-4 text-center-sm">
             <i class="fa-solid fa-user display-5 text-danger mb-4"></i>
             <h3 class="py-3 mb-1">Good communication</h3>
             <p class="text-secondary fs-5">
@@ -176,7 +180,7 @@
           </div>
           <!-- col 1 end -->
           <!-- col 2 -->
-          <div class="col-xs-12 col-md-6 col-lg-4">
+          <div class="col-xs-12 col-md-6 col-lg-4 text-center-sm">
             <i class="fa-solid fa-leaf display-5 text-danger mb-4"></i>
             <h3 class="py-3 mb-1">On-time delivery</h3>
             <p class="text-secondary fs-5">
@@ -186,7 +190,7 @@
           </div>
           <!-- col 2 end -->
           <!-- col 3 -->
-          <div class="col-xs-12 col-md-6 col-lg-4">
+          <div class="col-xs-12 col-md-6 col-lg-4 text-center-sm">
             <i class="fa-solid fa-file-image display-5 text-danger mb-4"></i>
             <h3 class="py-3 mb-1">Spectacular design</h3>
             <p class="text-secondary fs-5">
@@ -198,7 +202,7 @@
         </div>
       </section>
       <!-- section five end -->
-      <section class="container hieght">
+      <section class="container hieght" id="contact">
         <div class="row gx-5">
           <div class="col-md-12 col-lg-6 gx-5">
             <div class="line mb-5"></div>
@@ -319,9 +323,9 @@
     <script src="script.js"></script>
     <script src="vanilla-tilt.js"></script>
     <script type="text/javascript" src="vanilla-tilt.js"></script>
-    <script>
+    <!-- <script>
       VanillaTilt.init(
-        document.querySelectorAll(".col-xs-12 col-md-6 col-lg-4"),
+        document.querySelectorAll(".col-xs-12 col-md-6 col-lg-4 text-center-sm"),
         {
           max: 25,
           speed: 400,
@@ -329,6 +333,10 @@
           "max-glare": 1,
         }
       );
-    </script>
+    </script> -->
   </body>
 </html>
+
+
+
+<!-- password :- -->
